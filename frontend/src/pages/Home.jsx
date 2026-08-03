@@ -123,7 +123,7 @@ export default function Home() {
       <div className="relative bg-bakery-800 py-24 text-center px-4 overflow-hidden">
         <div className="absolute inset-0 opacity-15 mix-blend-overlay">
           <img 
-            src="https://images.unsplash.com/photo-1517433456452-f9633a875f6f?q=80&w=1200&auto=format&fit=crop" 
+            src="/images/bakery-background.jpg" 
             alt="Bakery background" 
             className="w-full h-full object-cover"
           />
