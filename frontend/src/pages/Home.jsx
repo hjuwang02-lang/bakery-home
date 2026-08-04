@@ -96,7 +96,7 @@ export default function Home() {
       
       {/* 1. Autoplay Unlock Modal */}
       {!unlocked && !loading && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-bakery-900/80 backdrop-blur-md">
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-bakery-900/40 backdrop-blur-md">
           <div className="bg-bakery-50 rounded-2xl p-8 max-w-md w-full mx-4 border border-bakery-200 shadow-2xl text-center animate-fade-in">
             <div className="mx-auto w-16 h-16 bg-bakery-100 rounded-full flex items-center justify-center mb-6 text-bakery-600">
               <Music className="w-8 h-8 animate-pulse" />
